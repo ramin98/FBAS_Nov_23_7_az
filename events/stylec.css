@@ -1,0 +1,45 @@
+#con{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+#con div{
+    width: auto;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+}
+
+#con div{
+   height: 100px;
+   width: 50px;
+   background-color: blue;
+}
+
+.hide{
+    display: none;
+}
+
+#par{
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+position: relative;
+}
+
+#par span{
+font-size: 20px;
+}
+
+#text-window{
+   position: absolute;
+   width: fit-content;
+   height: 100px;
+   padding: 5px;
+   border: 2px solid black;
+   display: none;
+   background-color: white;
+}
